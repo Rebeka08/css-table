@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: rgb(243, 183, 183);
+}
+
+h1{
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;  
+    color: rgb(251, 210, 156);
+    text-shadow:0 2px 3px #747474, 
+    1px 3px 4px #222, 
+    0 8px 3px #474747, 
+    0 11px 4px #747474,
+    0 14px 4px #565656,
+    0 17px 4px #343434,
+    0 20px 4px #171717;
+}
+h2{
+     font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: 20px;
+    color: rgb(14, 115, 69);
+    background: linear-gradient(90deg, rgb(24, 1, 1) 0%, rgb(231, 117, 117) 35%, rgb(24, 1, 1) 100%);
+    text-shadow: 0 2px 1px #79a06d, 
+    -1px 3px 1px #82ad75, 
+    -2px 5px 1px #8ebf80;
+
+}  
+
+table{
+   
+    width: 800px;
+    height: 400px;
+    border-collapse: collapse;
+   
+     }
+ 
+ table, th, td{
+   
+    border: 2px solid red;
+    margin: 20px auto;
+  }
+  th,td{
+    height: 50px;
+    padding: 15px;
+  }
+  th{
+    color: rgb(242, 230, 230);
+    font-size: 18px;
+    line-height: 28px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,117,121,1) 35%, rgb(2,0,36,1)100%);    
+  }
+  th:hover{
+    color: #000; 
+    background: red;
+  }
+
+tr:nth-child(even){
+   
+    background: #edbbe3;
+}
+tr:nth-child(even):hover{
+    color: #fff;
+   
+    background: #bf9604;
+    cursor: pointer;
+}
+
+tr:nth-child(odd){
+    
+    background: #a3f0b1;
+}
+tr:nth-child(odd):hover{
+    color: #fff;    
+    background: #e7165c;
+    cursor: pointer;
+}
